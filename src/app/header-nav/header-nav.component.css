@@ -1,0 +1,61 @@
+.navbar.navbar-expand-md{
+    background: black;
+    width: 100%;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    font-size:50px;
+    font-family: rofi;
+    color: white;
+}
+
+.navbar-toggler{
+    outline: none;
+    color: white;
+    padding-bottom: 10px;
+}
+.fa.fa-bars{
+    font-size: 35px;
+}
+.collapse.navbar-collapse{
+    justify-content: flex-end;
+}
+
+
+.nav-link
+{
+    font-size: 25px;
+    color: white;
+    font-family: aladin;
+    margin: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav-item{
+        /* border: #39ff14 2px solid; */
+        border: white 2px solid;
+        border-radius: 25px;
+        margin: 5px;
+        text-align: center;
+    }
+    
+
+  }
+
+
+@media only screen and (max-width: 400px) {
+    .navbar-brand{
+        font-size: 30px;
+    }
+    .nav-item{
+        /* border: #39ff14 2px solid; */
+        border: white 2px solid;
+        border-radius: 25px;
+        margin: 5px;
+        text-align: center;
+    }
+
+}
