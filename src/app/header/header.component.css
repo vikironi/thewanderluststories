@@ -28,7 +28,8 @@ img{
     height: 410px;
 }
 
-h2{
+#callmain{
+    font-size: 75px;
     color: white;
 }
 h3{
@@ -207,11 +208,11 @@ h3{
     .button-login{
         padding: 10px 20px;
     }
-    h2{
-        font-size: medium;
+    #callmain{
+        font-size: 50px;
     }
     h3{
-        font-size: small;
+        font-size: medium;
     }
     
 
@@ -232,11 +233,11 @@ h3{
     .button-login{
         padding: 10px 20px;
     }
-    h2{
-        font-size: medium;
+    #callmain{
+        font-size: 50px;
     }
     h3{
-        font-size: small;
+        font-size: medium;
     }
 
 
