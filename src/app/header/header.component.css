@@ -2,7 +2,9 @@
     padding: 10px 20px 0 20px;
 }
 
-
+#section-image{
+    display: none;
+}
 
 
 
@@ -187,3 +189,59 @@ h3{
   transition-delay: 0s;
   
   }
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    #section-image{
+        display: inline-block;
+    }    
+    .logoimage{
+        display: none;
+    }
+    .button-signup{
+        padding: 10px 20px;
+    }
+    .button-login{
+        padding: 10px 20px;
+    }
+    h2{
+        font-size: medium;
+    }
+    h3{
+        font-size: small;
+    }
+    
+
+
+  }
+
+
+@media only screen and (max-width: 400px) {
+    #section-image{
+        display: inline-block;
+    }
+    .logoimage{
+        display: none;
+    }
+    .button-signup{
+        padding: 10px 20px;
+    }
+    .button-login{
+        padding: 10px 20px;
+    }
+    h2{
+        font-size: medium;
+    }
+    h3{
+        font-size: small;
+    }
+
+
+}
+
+
+
+ 
