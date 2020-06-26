@@ -1,4 +1,4 @@
-.main{
-    height: 100vh;
-    background: black;
+app-header-nav{
+    background-color: black;
+    z-index: 1;
 }

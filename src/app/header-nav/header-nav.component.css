@@ -1,6 +1,5 @@
-.navbar.navbar-expand-md{
+.navbar.sticky-top.navbar-expand-lg{
     background: black;
-    width: 100%;
 }
 
 .navbar-brand{
@@ -18,10 +17,6 @@
 .fa.fa-bars{
     font-size: 35px;
 }
-.collapse.navbar-collapse{
-    justify-content: flex-end;
-}
-
 
 .nav-link
 {
@@ -29,13 +24,23 @@
     color: white;
     font-family: aladin;
     margin: 10px;
+} 
+.nav-item.disabled{
+    text-decoration: line-through;
 }
 
+.nav-link.active{
+    border-radius: 35px;
+    background: #ff8300;
+    color: black;
+    padding: 5px 10px;
+    box-shadow: 0 0 50px #ff8300;
+    transition-delay: 0.5s;
+}
 
 
 @media only screen and (max-width: 768px) {
     .nav-item{
-        /* border: #39ff14 2px solid; */
         border: white 2px solid;
         border-radius: 25px;
         margin: 5px;
@@ -59,3 +64,41 @@
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

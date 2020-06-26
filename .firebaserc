@@ -3,5 +3,14 @@
     "default": "hotel-shiv-sagar-1551188109468",
     "yes": "thewanderlust-40bf8",
     "staging": "thewanderlust-40bf8"
+  },
+  "targets": {
+    "thewanderlust-40bf8": {
+      "hosting": {
+        "TheWanderlust": [
+          "thewanderlust-40bf8"
+        ]
+      }
+    }
   }
 }
