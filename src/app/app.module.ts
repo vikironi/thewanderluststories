@@ -27,6 +27,7 @@ import { AngularFireModule } from '@angular/fire';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.compone
     HomeComponent,
     SigninComponent,
     SignupComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    GalleryComponent
   ],
 
   imports: [
