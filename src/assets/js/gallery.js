@@ -1,26 +1,27 @@
-"use strict";
-const modal = document.querySelector(".modal1");
+
+const modal1 = document.querySelector(".modal1");
 const preview = document.querySelector(".gallery img");
 const original = document.querySelector(".full-img1");
-const caption = document.querySelector(".caption1");
+const caption1 = document.querySelector(".caption1");
 
 
-preview.forEach(preview => { 
-    preview.addEventListener('click', () => {
-        modal.classList.add('open');
-        original.classList.add('open');
+preview.forEach((preview) => { 
+    preview.addEventListener("click", () => {
+        modal1.classList.add("open");
+        original.classList.add("open");
         //Dyanamic image and text
         const originalSrc = preview.getAttribute("data-original");
-        original.Src = originalSrc
+        console.log(originalSrc);
+        original.src = originalSrc; 
         const altText = preview.alt;
-        caption.textContent = altText;
+        caption1.textContent = altText;
     })
 })
 
 
-modal.addEventListener('click', (e) => { 
+modal1.addEventListener('click', (e) => { 
     if (e.target.classList.contains("model1")) { 
-        modal.classList.remove('open');
+        modal1.classList.remove('open');
         original.classList.remove('open');
 
     }
